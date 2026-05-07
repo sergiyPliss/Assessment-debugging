@@ -11,3 +11,17 @@ This repository contains a broken web app built with Dash. Please follow the tas
    2. Use a modern python package manager that respects `pyproject.toml` and `.python-version`, rather than `pip`.
    3. Setup virtual environment, start the app, and access the app.
 6. Commit and push all the changes, and provide a link to your own repo in your submission in the last.
+
+## Instructions on Launching App
+
+1. Clone the repository.
+2. Install anaconda.
+4. Create a virtual enviroment with anaconda.\
+      ```conda create --name myenv```\
+      ```conda activate myenv```
+5. Install required packages.\
+    ```conda install -c conda-forge dash```\
+   ```conda install numpy```\
+   ```conda install pandas```
+6. Run the app.\
+   ```run main.py```
